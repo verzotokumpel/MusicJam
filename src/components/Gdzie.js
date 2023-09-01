@@ -18,6 +18,7 @@ function Gdzie() {
             <p className='pt-5'>Zapewnimy wam miejsce do pracy, prąd, wi-fi... + jedzenie i picie.</p>
           </div>
         </div>
+      <!--
         <div className='pt-10 sm:pt-20'>
           <div className='sm:flex items-center justify-center'>
           <h3 className='text-xl md:text-2xl lg:text-3xl sm:pr-10'>Afterparty</h3>
@@ -27,7 +28,7 @@ function Gdzie() {
           <div className='text-lg md:text-xl lg:text-2xl font-light'>
             <p className='pt-5'>Czudner SPOT, ul. Łąkowa 35, Gdańsk, 22.00 - koncert Searching for Managment, potem afterparty - dla uczestników wejście free!</p>
           </div>
-        </div>
+        </div> -->
         
     </div>
   )

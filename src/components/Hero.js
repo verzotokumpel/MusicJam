@@ -10,11 +10,11 @@ function Hero() {
                 <h1 className='font-bold text-6xl md:text-7xl text-red-600'>Music Jam</h1>
                 <p>Bajt na bicie</p>
                 <div className='py-10 md:py-16'>
-                    <p>26.11.2022</p>
+                    <p>4.11.2022</p>
                     <p>Instytut Kultury Miejskiej</p>
                     <p>Gdańsk</p>
                 </div>
-                <a href="https://app.evenea.pl/event/musicjam2022/?" target='_blank'>
+                <a href="https://app.evenea.pl/event/musicjam2023/" target='_blank'>
                 <button className='mt-2 sm:mt-0 font-normal bg-red-600 rounded-md px-4 py-1 md:py-2 hover:scale-105 duration-500 text-xl md:text-2xl lg:text-4xl'>Weź udział</button>
                 </a>
             </div> 

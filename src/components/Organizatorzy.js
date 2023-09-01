@@ -2,6 +2,7 @@ import React from 'react'
 import codeme from '../assets/codeme-logo.png'
 import hs from '../assets/hs-logo.png'
 import ikm from '../assets/ikm-logo.png'
+import dreat from '../assets/dreat-logo.png'
 import protone from '../assets/protone-logo.jpg'
 import {AiFillFilePdf} from 'react-icons/ai'
 import rk from '../assets/Files/RegulaminKonkursu.pdf'
@@ -15,15 +16,22 @@ function Organizatorzy() {
       id: 1,
       img: codeme,
       link: 'https://codeme.pl/',
-    }, {
+    },
+      {
       id: 2,
       img: ikm,
       link: 'https://ikm.gda.pl/en/',
-     }, {
+     },
+     {
       id: 3,
       img: hs,
       link: 'https://hs3.pl/',
-    }       
+     },
+     {
+      id: 4,
+      img: dreat,
+      link: 'https://dreat.info/',
+    }
     ]
 
     const Part = [

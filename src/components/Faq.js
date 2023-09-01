@@ -19,7 +19,7 @@ function Faq() {
     {
       id: 1,
       question: 'Jaka jest cena za bilety?',
-      ans: 'Opłata rejestracyjna wynosi symbolicznie 30 zł. Dzięki tej kwocie mamy pewność, że zajmujemy miejsca tylko dla osob zainteresowanych i przeznaczymy ją na nagrody dla uczestników',
+      ans: 'Opłata rejestracyjna wynosi symbolicznie 40 zł. Dzięki tej kwocie mamy pewność, że zajmujemy miejsca tylko dla osob zainteresowanych i przeznaczymy ją na nagrody dla uczestników',
     },{
       id: 2,
       question: 'Czy muszę mieć zespół?',
@@ -27,17 +27,21 @@ function Faq() {
     },{
       id: 3,
       question: 'Co będzie mi potrzebne?',
-      ans: 'Cokolwiek potrzebujesz do realizacji swojego pomysłu, ale absolutne minimum to laptop ze słuchawkami.',
+      ans: 'Przede wszystkim wygodne miejsce do pracy i potrzebne Ci instrumenty (chociaż możesz działać także wyłączenie przy wykorzystaniu komputera)',
     },{
       id: 4,
       question: 'Jaki jest temat przewodni hackathonu?',
-      ans: 'Tematem przewodnim jest "(Nie)zwykłe dźwięki". Nie jest to warunek konieczny, jednak gorąco zachęcamy do wykorzystania tematu.',
+      ans: 'Tematem przewodnim jest "Bit na Bajcie". Eksplorujemy dźwięki związane z technologią i komputerami.  Nie jest to warunek konieczny, jednak gorąco zachęcamy do wykorzystania tematu.',
     },{
       id: 5,
       question: 'Jak będzie wyglądała przestrzeń hackathonu?',
-      ans: 'Będziemy mieli do dyspozyji dwie przestrzenie: cichą i głośną. W głośnej części możesz spokojnie hałasować i nagrywać. W cichej obowiązują słuchawki :)',
+      ans: 'Hackathon odbędzie się w formie stacjonarnej w przestrzeni Instytutu Kultury Miejskiej w Gdańsku w Kunszcie Wodnym, przy ul Targ Sienny 4',
     },{
       id: 6,
+      question: 'Czy muszę mieć doświadczenie w tworzeniu muzyki?',
+      ans: 'Nie. I to jest piękne :) wystarczy chcieć. Możesz być grafikiem, muzykiem, albo elektronikiem. Wystarczy, że będziesz w stanie powiązać muzykę i technologie.',
+    },{
+      id: 7,
       question: 'Mam pytanie, na które nie ma tutaj odpowiedzi. Gdzie mogę je zadać?',
       ans: 'Zapraszamy do kontaktu na kontakt@codeme.pl',
     },

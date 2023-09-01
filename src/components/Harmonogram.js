@@ -4,21 +4,33 @@ function Harmonogram() {
 
   const events = [
     {
-      time: '10:00 - 10:20',
+      time: 'Piątek 18:00 - 19:00',
+      text: 'Warsztaty',
+    },
+    {
+      time: 'Sobota 10:00 - 10:20',
       text: 'Rozpoczęcie',
-    }, {
-      time: '10:20-11:00',
-      text: 'Teambuilding i prezentacje pomysłów',
-    }, {
-      time: '11:00 - 20:00',
-      text: 'Działamy - praca w zespołach',
-    }, {
-      time: '20:00 - 20:30',
+    },
+    {
+      time: 'Sobota 10:20 - 11:00',
+      text: 'Teambuilding',
+    },
+    {
+      time: 'Sobota 11:00 - 18:00',
+      text: 'Działamy: praca w zespołach',
+    },
+    {
+      time: 'Sobota 18:00 - 19:30',
       text: 'Finał i prezentacja projektów',
-    }, {
-      time: '20:30 - 21:00',
-      text: 'Zakończenie',
-    }
+    },
+    {
+      time: 'Sobota 19:30 - 20:00',
+      text: 'Wręczenie nagród i zakończenie',
+    },
+    {
+      time: 'Sobota 21:00',
+      text: 'After Party - Koncert',
+    },
   ]
 
 
