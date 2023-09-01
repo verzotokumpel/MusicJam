@@ -27,11 +27,6 @@ function Organizatorzy() {
       img: hs,
       link: 'https://hs3.pl/',
      },
-     {
-      id: 4,
-      img: dreat,
-      link: 'https://dreat.info/',
-    }
     ]
 
     const Part = [
