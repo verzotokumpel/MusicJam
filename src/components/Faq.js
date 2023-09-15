@@ -23,7 +23,7 @@ function Faq() {
     },{
       id: 2,
       question: 'Czy muszę mieć zespół?',
-      ans: 'Rywalizacja odbywa sie max 5 osobowych zespołach. Nie jest jednak wymagane posiadanie drużyny przed rozpoczęciem wydarzenia. Wiele zespołów dobiera się na miejscu, w trakcie prezentacji pomysłów.',
+      ans: 'Rywalizacja odbywa się w max 5 osobowych zespołach. Nie jest jednak wymagane posiadanie drużyny przed rozpoczęciem wydarzenia. Wiele zespołów dobiera się na miejscu, w trakcie prezentacji pomysłów.',
     },{
       id: 3,
       question: 'Co będzie mi potrzebne?',
