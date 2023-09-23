@@ -7,7 +7,7 @@ function Gdzie() {
         <div className='pt-6'>
           <div className='sm:flex items-center justify-center'>
           <h3 className='text-xl md:text-2xl lg:text-3xl sm:pr-10'>Instytut Kultury Miejskiej</h3>
-          <a href='https://www.google.com/maps/place/Institute+of+Urban+Culture/@54.348614,18.654018,17z/data=!4m15!1m8!3m7!1s0x46fd73a0339eafff:0x1132eef90d3f6a22!2sInstitute+of+Urban+Culture!8m2!3d54.348614!4d18.654018!10e1!16s%2Fg%2F11gz8mh3s!3m5!1s0x46fd73a0339eafff:0x1132eef90d3f6a22!8m2!3d54.348614!4d18.654018!16s%2Fg%2F11gz8mh3s?entry=ttu' target='_blank'>
+          <a href='https://maps.app.goo.gl/nh3oQ9chZNzaTCcj9' target='_blank'>
             <button className='mt-2 sm:mt-0 font-semibold bg-red-600 rounded-md px-4 py-1 md:py-2 hover:scale-105 duration-500 text-xl md:text-2xl lg:text-3xl'>Zobacz na mapie</button>
           </a>
           </div>

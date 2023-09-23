@@ -35,7 +35,7 @@ function Faq() {
     },{
       id: 5,
       question: 'Jak będzie wyglądała przestrzeń hackathonu?',
-      ans: 'Hackathon odbędzie się w formie stacjonarnej w przestrzeni Instytutu Kultury Miejskiej w Gdańsku w Kunszcie Wodnym, przy ul Targ Sienny 4',
+      ans: 'Hackathon odbędzie się w formie stacjonarnej w przestrzeni Instytutu Kultury Miejskiej w Gdańsku w Kunszcie Wodnym, przy ul. Targ Rakowy 11',
     },{
       id: 6,
       question: 'Czy muszę mieć doświadczenie w tworzeniu muzyki?',

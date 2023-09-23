@@ -5,9 +5,7 @@ import ikm from '../assets/ikm-logo.png'
 import dreat from '../assets/dreat-logo.png'
 import protone from '../assets/protone-logo.jpg'
 import {AiFillFilePdf} from 'react-icons/ai'
-import rk from '../assets/Files/RegulaminKonkursu.pdf'
-import ru from '../assets/Files/RegulaminUdzialu.pdf'
-import zn from '../assets/Files/ZasadyNagrody.pdf'
+import regulamin from '../assets/Files/Regulamin_MusicJAm_2023.pdf'
 
 
 function Organizatorzy() {
@@ -39,19 +37,9 @@ function Organizatorzy() {
     const Files = [
       {
         id: 1, 
-        link: rk,
-        text: 'Regulamin Konkursu',
-      },
-      {
-        id: 2, 
-        link: ru,
-        text: 'Regulamin Udziału',
-      },
-      {
-        id: 3, 
-        link: zn,
-        text: 'Zasady Nagrody',
-      },
+        link: regulamin,
+        text: 'Regulamin',
+      }
     ]
 
 
