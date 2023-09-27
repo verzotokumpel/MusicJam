@@ -5,7 +5,7 @@ import ikm from '../assets/ikm-logo.png'
 import dreat from '../assets/dreat-logo.png'
 import protone from '../assets/protone-logo.jpg'
 import {AiFillFilePdf} from 'react-icons/ai'
-import regulamin from '../assets/Files/Regulamin_MusicJAm_2023.pdf'
+import regulamin from '../assets/Files/Regulamin_MusicJam_2023.pdf'
 
 
 function Organizatorzy() {
