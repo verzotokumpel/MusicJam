@@ -48,7 +48,7 @@ function Harmonogram() {
     <div className='sm:flex text-xl md:text-2xl lg:text-3xl pt-6 justify-center items-center'>
       <p className='mt-2 sm:pr-2'>Nie ma na co czekać!</p>
       <a href="https://app.evenea.pl/event/musicjam2023/" target='_blank' >
-        <button className='sm:mt-0 font-semibold bg-red-600 rounded-md px-4 py-1 md:py-2 hover:scale-105 duration-500 text-xl md:text-2xl lg:text-3xl'>Weź udział</button>
+        <button className='text-white sm:mt-0 font-semibold bg-red-600 rounded-md px-4 py-1 md:py-2 hover:scale-105 duration-500 text-xl md:text-2xl lg:text-3xl'>Weź udział</button>
       </a>
     </div>
     </div>
