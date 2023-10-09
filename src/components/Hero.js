@@ -15,7 +15,7 @@ function Hero() {
                     <p>Gdańsk</p>
                 </div>
                 <a href="https://app.evenea.pl/event/musicjam2023/" target='_blank'>
-                <button className='mt-2 sm:mt-0 font-normal bg-red-600 rounded-md px-4 py-1 md:py-2 hover:scale-105 duration-500 text-xl md:text-2xl lg:text-4xl'>Weź udział</button>
+                <button className='text-white font-semibold mt-2 sm:mt-0 font-normal bg-red-600 rounded-md px-4 py-1 md:py-2 hover:scale-105 duration-500 text-xl md:text-2xl lg:text-4xl'>Weź udział</button>
                 </a>
             </div> 
             <div className='w-3/4 md:w-full mx-auto'>

@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import {Link} from 'react-scroll'
+import logo from '../assets/logo-music-jam-czarne.png'
 
 function Navbar() {
 
@@ -39,7 +40,7 @@ function Navbar() {
   return (
      <div className={scrolled ? '!z-50 fixed w-full bg-[#f8f8f8] shadow-md' : '!z-50 fixed w-full bg-[#f8f8f8] '}>
         <div className='flex justify-between items-center py-8 max-w-[1140px] mx-auto px-4'>
-        <h1 className='font-satisfy text-[38px] sm:text-[48px]'><Link to='Hero' spy={true} smooth={true} offset={-300} duration={500}>Music Jam</Link></h1>
+            <Link to='Hero' spy={true} smooth={true} offset={-300} duration={500}><img src={logo} alt="logo" className='max-w-[100px] sm:max-w-[100px]'/></Link>
             <ul className='hidden md:flex text-[24px] font-semibold'>
                 {navitems.map((item, i) => (
                     <li key={i} className='px-6 hover:scale-105 duration-500'>

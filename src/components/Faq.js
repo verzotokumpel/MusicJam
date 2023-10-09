@@ -27,7 +27,7 @@ function Faq() {
     },{
       id: 3,
       question: 'Co będzie mi potrzebne?',
-      ans: 'Przede wszystkim wygodne miejsce do pracy i potrzebne Ci instrumenty (chociaż możesz działać także wyłączenie przy wykorzystaniu komputera)',
+      ans: 'Działamy w formule BYOD (Bring Your Own Device) czyli przynieś wszystko czego potrzebujesz. Na pewno przyda Ci się laptop / komputer. Pomyśl także o instrumentach grających i niezbędnych kablach. My zapewniamy przestrzeń, prąd, internet, coś do zjedzenia.',
     },{
       id: 4,
       question: 'Jaki jest temat przewodni hackathonu?',
@@ -35,13 +35,19 @@ function Faq() {
     },{
       id: 5,
       question: 'Jak będzie wyglądała przestrzeń hackathonu?',
-      ans: 'Hackathon odbędzie się w formie stacjonarnej w przestrzeni Instytutu Kultury Miejskiej w Gdańsku w Kunszcie Wodnym, przy ul. Targ Rakowy 11',
+      ans: 'Hackathon odbędzie się w formie stacjonarnej w przestrzeni Instytutu Kultury Miejskiej w Gdańsku w Kunszcie Wodnym, przy ul. Targ Rakowy 11. Do naszej dyspozycji będzie duża sala, gdzie będziemy tworzyć muzykę oraz sala audio-video, gdzie odbędzie się finał hackathonu oraz afterparty.',
     },{
       id: 6,
       question: 'Czy muszę mieć doświadczenie w tworzeniu muzyki?',
       ans: 'Nie. I to jest piękne :) wystarczy chcieć. Możesz być grafikiem, muzykiem, albo elektronikiem. Wystarczy, że będziesz w stanie powiązać muzykę i technologie.',
-    },{
+    },
+    {
       id: 7,
+      question: 'Czy warsztaty są dodatkowo płatne?',
+      ans: 'W przypadku osób, które uczestniczą w hackathonie, warsztaty są bezpłatne. Jeśli jednak nie możesz uczestniczyć w hackathonie, a chciałbyś wziąć udział w warsztatach - zapraszamy. Bilety w cenie 10zł.',
+    },
+    {
+      id: 8,
       question: 'Mam pytanie, na które nie ma tutaj odpowiedzi. Gdzie mogę je zadać?',
       ans: 'Zapraszamy do kontaktu na kontakt@codeme.pl',
     },
@@ -53,8 +59,8 @@ function Faq() {
         <h2 className='text-2xl md:text-3xl lg:text-4xl'>FAQ</h2>
         <div>
         {data.map((item, i) => (
-          <div key={item.id} className='bg-gray-50 shadow-md py-4 my-4 rounded-xl cursor-pointer hover:scale-105 duration-500 hover:bg-red-400'> 
-            <div className='px-4 flex justify-between' onClick={() => toggle(i)}> 
+          <div key={item.id} className='bg-gray-50 shadow-md py-4 my-4 rounded-xl cursor-pointer hover:scale-105 duration-500 hover:bg-red-400' onClick={() => toggle(i)}>
+            <div className='px-4 flex justify-between'>
               <h3 className='text-xl md:text-xl lg:text-2xl'>{item.question}</h3>
               <button>{selected === i ? <BiSolidUpArrow size={25}/> : <BiSolidDownArrow size={25}/>}</button>
             </div>

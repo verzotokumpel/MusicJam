@@ -6,6 +6,8 @@ import dreat from '../assets/dreat-logo.png'
 import protone from '../assets/protone-logo.jpg'
 import {AiFillFilePdf} from 'react-icons/ai'
 import regulamin from '../assets/Files/Regulamin_MusicJam_2023.pdf'
+import logopp from '../assets/logopp3.jpg'
+ import muzykoholicy from '../assets/muzykoholicy_logo.png'
 
 
 function Organizatorzy() {
@@ -25,13 +27,26 @@ function Organizatorzy() {
       img: hs,
       link: 'https://hs3.pl/',
      },
+     {
+      id: 4,
+      img: dreat,
+      link: 'https://dreat.info/',
+     },
     ]
 
     const Part = [
       {
         img: protone,
         link: 'https://www.facebook.com/pro.tone.poland/',
-      }
+      },
+      {
+        img: logopp,
+        link: 'https://podprad.pl/',
+      },
+      {
+        img: muzykoholicy,
+        link: 'https://muzykoholicy.com/',
+      },
     ]
 
     const Files = [
@@ -49,7 +64,7 @@ function Organizatorzy() {
         <div className='flex py-4 justify-center'>
           {Org.map((item) => (
             <a href={item.link} target="_blank" key={item.id} className='px-3 sm:px-4 md:px-10'>
-              <img src={item.img} className='hover:scale-105 duration-300'/>
+              <img src={item.img} className='hover:scale-105 duration-300 max-w-[100px]'/>
             </a>
           ))}
         </div>

@@ -5,12 +5,12 @@ function DlaczegoWarto() {
     {
       id: 1,
       arg: 'Świetni goście',
-      text: '',
+      text: 'Poznasz nie tylko doborowe towarzystwo osób, dla których muzyka to coś więcej. Podczas MusicJam pojawią się także specjalni goście, którzy tą tematyką zajmują się na co dzień. To doskonała okazja by złapać inspiracje i nowe kontakty.',
     },
     {
       id: 2,
       arg: 'Warsztaty',
-      text: '',
+      text: 'Dołącz do warsztatów, które przygotowaliśmy dla Ciebie jeszcze przed wydarzeniem. Dzięki nim będziesz miał(a) okazję przygotować się wcześniej i dowiedzieć się jak korzystać z ciekawych narzędzi do tworzenia muzyki.',
     },
     {
       id: 3,
@@ -25,12 +25,12 @@ function DlaczegoWarto() {
     {
       id: 2,
       arg: 'Nagrody',
-      text: '',
+      text: 'Nie są one najważniejsze, ale zawsze się pojawiają 😉 dlatego oprócz dobrej zabawy warto też zadbać o efekt końcowy swoich projektów',
     },
     {
       id: 6,
       arg: 'Afterparty',
-      text: '',
+      text: 'Tuż po zakończeniu hackathonu rozpoczynamy afterparty, na którym nie zabraknie profesjonalnej muzyki oraz celebrowania zwycięzców.',
     }
   ]
 

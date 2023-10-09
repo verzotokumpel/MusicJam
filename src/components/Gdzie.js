@@ -16,6 +16,7 @@ function Gdzie() {
             <p className='pt-5'>Działamy dla i z mieszkańcami dzielnic Gdańska. Interesuje nas kultura otwarta, związana z Gdańskiem i jego dzielnicami, dostępna dla mieszkańców i współtworzona razem z nimi</p>
             <p className='pt-5'>Podczas MusicJamu przygotujemy dla Was specjalne strefy do rozstawienia instrumentów i hałasowania! Nie mamy żadnych sąsiadów... którym hałas w sobotę mógłby przeszkadzać. </p>
             <p className='pt-5'>Zapewnimy wam miejsce do pracy, prąd, wi-fi... + jedzenie i picie.</p>
+            <p className='pt-5'><b>Afterparty</b> odbędzie się w tej samej przestrzeni, gdzie finał hackathonu.</p>
           </div>
         </div>
     </div>
