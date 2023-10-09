@@ -9,19 +9,29 @@ function DlaczegoWarto() {
     },
     {
       id: 2,
-      arg: 'Nagrody',
-      text: 'Vouchery do sklepu muzycznego o wartości - I m-ce 1000 zł, II i III m-ce 500 oraz Nagroda Specjalna* od wytwórni 33records i zespołu Searching for Managment - wspólne nagranie utworu w studio w Poznaniu. (*Organizator zastrzega możliwość nie przyznania nagrody specjalnej; zasady przyznania nagrody specjalnej - w osobnym pdf)',
+      arg: 'Warsztaty',
+      text: '',
     },
     {
       id: 3,
-      arg: 'Platforma do kooperacyjnego tworzenia muzyki',
-      text: 'Teambuilding dla osób, które chcą działać z innymi (nawet jeśli się nie znają).',
+      arg: 'Teambulding',
+      text: 'dla osób, które chcą działać z innymi (nawet jeśli się nie znają)',
     },
     {
       id: 4,
       arg: 'Dobra zabawa',
       text: 'Bo na MusicJam zawsze wszystko gra.',
     },
+    {
+      id: 2,
+      arg: 'Nagrody',
+      text: '',
+    },
+    {
+      id: 6,
+      arg: 'Afterparty',
+      text: '',
+    }
   ]
 
 
@@ -34,17 +44,6 @@ function DlaczegoWarto() {
             <p className='text-lg md:text-xl lg:text-2xl font-light'>{item.text}</p>
         </div>
       ))}
-      <div className='py-2 md:py-4 lg:py-6'>
-        <h3 className='text-xl md:text-2xl lg:text-3xl'>Jury-Twoje prace ocenią: </h3>
-        <div className='text-lg md:text-xl lg:text-32l font-light'>
-        <p>Przedstawiciele Organizatora Wydarzenia: Karina Rojek (Instytut Kultury Miejskiej)
-        Marcin Młyński (Fundacja Code:ME, Hackerspace Trójmiasto) 
-        Łukasz Skotarek (Dreat Music&Code, Hackerspace Trójmiasto)</p>
-        <p className='pt-4'>Oskar Pryczyniec (Jägspot)</p>
-        <p className='pt-4'>DYGA, czyli Gosia Wojciechowska, DJ-ka (Klub Pro TONE)</p>
-        <p className='pt-4'>Jakub Szwarc/Michał Ruksza (Zespół Searching for Management)</p>
-        </div>
-      </div>
     </div>
   )
 }
