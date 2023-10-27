@@ -7,7 +7,8 @@ import protone from '../assets/protone-logo.jpg'
 import {AiFillFilePdf} from 'react-icons/ai'
 import regulamin from '../assets/Files/Regulamin_MusicJam_2023.pdf'
 import logopp from '../assets/logopp3.jpg'
- import muzykoholicy from '../assets/muzykoholicy_logo.png'
+import muzykoholicy from '../assets/muzykoholicy_logo.png'
+import trojmiasto from '../assets/logo_3city.png'
 
 
 function Organizatorzy() {
@@ -47,6 +48,10 @@ function Organizatorzy() {
         img: muzykoholicy,
         link: 'https://muzykoholicy.com/',
       },
+      {
+        img: trojmiasto,
+        link: 'https://www.trojmiasto.pl',
+      },
     ]
 
     const Files = [
@@ -61,10 +66,10 @@ function Organizatorzy() {
   return (
     <div className='py-6 md:py-10 lg:py-16'>
         <h2 className='text-2xl md:text-3xl lg:text-4xl'>Organizatorzy</h2>
-        <div className='flex py-4 justify-center'>
+        <div className='flex py-4 justify-center max-h-40'>
           {Org.map((item) => (
             <a href={item.link} target="_blank" key={item.id} className='px-3 sm:px-4 md:px-10'>
-              <img src={item.img} className='hover:scale-105 duration-300 max-w-[100px]'/>
+              <img src={item.img} className='hover:scale-105 duration-300 object-scale-down max-w-[100px]'/>
             </a>
           ))}
         </div>
@@ -72,7 +77,7 @@ function Organizatorzy() {
         <div className='flex py-4 justify-center max-h-40'>
           {Part.map((item, i) => (
             <a href={item.link} target="_blank" key={i} className='px-2 sm:px-4 md:px-10'>
-              <img src={item.img} className='hover:scale-105 duration-300 object-scale-down h-28'/>
+              <img src={item.img} className='hover:scale-105 duration-300 object-scale-down h-28 max-h-[70px]'/>
             </a>
           ))}
         </div>
